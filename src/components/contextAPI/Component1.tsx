@@ -1,14 +1,14 @@
-import Component2 from './Component2'
+// import Component2 from './Component2'
 
-function Component1() {
-  return (
-    <div>
-        <p className="">Comp.1 </p>
+// function Component1() {
+//   return (
+//     <div>
+//         <p className="">Comp.1 </p>
 
 
-        <Component2 />
-    </div>
-  )
-}
+//         <Component2 />
+//     </div>
+//   )
+// }
 
-export default Component1
+// export default Component1

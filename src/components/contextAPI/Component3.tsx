@@ -1,5 +1,5 @@
 // import React, { createContext } from 'react'
-import Component4 from './Component4'
+// import Component4 from './Component4'
 
 
 function Component3() {
@@ -8,7 +8,7 @@ function Component3() {
 
 
 
-        <Component4/>
+        {/* <Component4/> */}
     </div>
   )
 }
