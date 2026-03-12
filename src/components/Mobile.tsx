@@ -1,17 +1,20 @@
-import { useState } from "react"
+// import { useState } from "react"
 import Hamburger from '../assets/images/hamburger.png'
 
-function Mobile() {
+type MobileProps = {
+  handleClick: () => void;
+  toggle: boolean;
+};
 
-  const [toggle, setToggle] = useState(false)
-let handleClick = () => {
-  setToggle(!toggle)
-}
+
+
+// function Mobile()
+
+const Mobile = ({handleClick, toggle}:
+  MobileProps) =>{
+
   return (
     <div>
-
-
-
 
      <div className='relative md:hidden'>
              <button onClick={handleClick} className='w-full'>
